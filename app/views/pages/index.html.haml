@@ -1,0 +1,29 @@
+.Wrapper
+  .Header
+    .Header__name
+      = image_tag "eetui.gif", alt: "top-name", class: "Header__name"
+    .Header__image
+      = image_tag "earth.gif", alt: "top-image", class: "Header__image"
+  = render "video"
+  = render "profile"
+  .SNS
+    .SNS__message
+      %p SNS
+    = link_to "https://www.youtube.com/channel/UCdMnQk5JllE4eYFWAA4n1Tg/featured", target: :_blank, class: "SNS__btn" do
+      .SNS__youtube
+        = image_tag "yt_icon_rgb.png", alt: "youtube-logo", class: "youtube"
+        Youtube
+    = link_to "https://twitter.com/eetui0901", target: :_blank, class: "SNS__btn" do
+      .SNS__twitter
+        = icon('fab', 'twitter', class:"twitter")
+        Twitter
+    = link_to "https://www.instagram.com/", target: :_blank, class: "SNS__btn" do
+      .SNS__instagram
+        = icon('fab', 'instagram', class:"instagram")
+        Instagram
+    = link_to "https://www.tiktok.com/", target: :_blank, class: "SNS__btn" do
+      .SNS__tiktok
+        = icon('fab', 'tiktok')
+        tiktok
+  .Footer
+    %p © 2020 eetui

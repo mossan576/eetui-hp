@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+.Wrapper{
+  color:  rgb(180, 180, 180);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(20, 20, 20);
+}
+
+.Header{
+  width: 85%;
+  border-bottom: solid 1px  rgb(180, 180, 180);
+  margin-bottom: 20px;
+  &__name{
+    height: 200px;
+    text-align: center;
+  }
+}
+.Header__image{
+  text-align: center;
+  margin: 0 10px;
+  
+}
+
+.Video{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Video iframe{
+  width: 600px;
+  height: 400px;
+  margin-top: 20px ;
+}
+
+.Profile{
+  padding-top: 20px;
+  height: 300px;
+  width: 85%;
+  text-align: center;
+  margin: 10px 0;
+  border: 1px solid rgb(180, 180, 180);
+  border-width: 1px 0 1px 0 ;
+}
+.Profile p{
+  margin-bottom: 20px;
+  line-height: 35px;
+}
+
+.SNS{
+  height: 350px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  &__message{
+    text-align: center;
+    padding-top: 20px;
+    width: 100px;
+  }
+  &__btn{
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+  }
+  &__youtube{
+    width: 250px;
+    height: 50px;
+    border: solid 1px rgb(180, 180, 180);
+    text-align: center;
+    line-height: 50px;
+  }
+  &__twitter{
+    width: 250px;
+    height: 50px;
+    border: solid 1px rgb(180, 180, 180);
+    text-align: center;
+    line-height: 50px;
+  }
+  &__instagram{
+    width: 250px;
+    height: 50px;
+    border: solid 1px rgb(180, 180, 180);
+    text-align: center;
+    line-height: 50px;
+  }
+  &__tiktok{
+    width: 250px;
+    height: 50px;
+    border: solid 1px rgb(180, 180, 180);
+    text-align: center;
+    line-height: 50px;
+  }
+}
+
+.youtube{
+  height: 14px;
+  margin-right: 10px;
+}
+
+.twitter{
+  color: rgb(29, 161, 242) ;
+  margin-right: 10px;
+}
+
+.instagram{
+  margin-right: 10px;
+}
+
+.Footer{
+  height: 80px;
+  width: 100%;
+  line-height: 80px;
+  border-top: solid 1px rgb(180, 180, 180);
+  text-align: center;
+  font-size: 12px;
+}
