@@ -13,15 +13,17 @@
 .Header{
   width: 85%;
   border-bottom: solid 1px  rgb(180, 180, 180);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   &__name{
+    margin-top: 10px;
     height: 200px;
     text-align: center;
   }
 }
 .Header__image{
+  width: 100%;
   text-align: center;
-  margin: 0 10px;
+  margin-bottom: 10px;
   
 }
 
