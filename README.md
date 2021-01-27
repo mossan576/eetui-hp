@@ -3,6 +3,7 @@
 友人のHPです、アプリではないです。
 友人が一人で作ったリリックビデオを見させてもらい、他の人にも見て欲しいという思いから
 HP作成を提案したところ、快く受け入れてくれたので作成しました。
+https://eetui-hp.herokuapp.com/
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
